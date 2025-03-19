@@ -1,38 +1,96 @@
----
-layout: default
-title: "Portfolio" 
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            max-width: 800px;
+            margin: auto;
+        }
+        .mini-header {
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        h2 {
+            color: #333;
+            margin-top: 20px;
+        }
+        h3 {
+            color: #007BFF;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .project-section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #fafafa;
+        }
+    </style>
+</head>
+<body>
+
 <header class="mini-header">
     <h1>Portfolio</h1>
 </header>
 
-# Cybersecurity GRC Portfolio
+<h2>Cybersecurity GRC Portfolio</h2>
 
-Welcome to my portfolio! Here, you'll find case studies, risk assessments, and compliance reports showcasing my expertise in cybersecurity governance, risk, and compliance.
+<p>Welcome to my portfolio! Here, you'll find case studies, risk assessments, and compliance reports showcasing my expertise in cybersecurity governance, risk, and compliance.</p>
 
-## **🔹 Featured Projects**  
+<h2>🔹 Featured Projects</h2>
 
-### **1. Risk Assessment Report (ISO 27001 Framework)**  
-- **Overview**: Conducted a security risk assessment for a mid-sized company.  
-- **Key Findings**: Identified vulnerabilities in data handling and network security.  
-- **Outcome**: Recommended security controls based on ISO 27001.  
-- 🔗 [View Report](risk-assessment.html)  
+<div class="project-section">
+    <h3>1. Risk Assessment Report (ISO 27001 Framework)</h3>
+    <p><strong>Overview:</strong> Conducted a security risk assessment for a mid-sized company.</p>
+    <p><strong>Key Findings:</strong> Identified vulnerabilities in data handling and network security.</p>
+    <p><strong>Outcome:</strong> Recommended security controls based on ISO 27001.</p>
+    <p>🔗 <a href="risk-assessment.html">View Report</a></p>
+</div>
 
-### **2. Incident Response Plan (NIST 800-61 Guidelines)**  
-- **Overview**: Developed an IR plan for a cloud-based application.  
-- **Key Findings**: Simulated phishing attack detection & mitigation strategies.  
-- **Outcome**: Reduced response time by 40% through automated processes.  
-- 🔗 [View Plan](incident-response.html)  
+<div class="project-section">
+    <h3>2. Incident Response Plan (NIST 800-61 Guidelines)</h3>
+    <p><strong>Overview:</strong> Developed an IR plan for a cloud-based application.</p>
+    <p><strong>Key Findings:</strong> Simulated phishing attack detection & mitigation strategies.</p>
+    <p><strong>Outcome:</strong> Reduced response time by 40% through automated processes.</p>
+    <p>🔗 <a href="incident-response.html">View Plan</a></p>
+</div>
 
-### **3. Compliance Audit Checklist (NIST, CIS, GDPR)**  
-- **Overview**: Created a compliance audit checklist for a SaaS provider.  
-- **Key Findings**: Discovered gaps in access controls and data protection.  
-- **Outcome**: Implemented a remediation roadmap for full compliance.  
-- 🔗 [Download Checklist](compliance-checklist.xlsx)  
+<div class="project-section">
+    <h3>3. Compliance Audit Checklist (NIST, CIS, GDPR)</h3>
+    <p><strong>Overview:</strong> Created a compliance audit checklist for a SaaS provider.</p>
+    <p><strong>Key Findings:</strong> Discovered gaps in access controls and data protection.</p>
+    <p><strong>Outcome:</strong> Implemented a remediation roadmap for full compliance.</p>
+    <p>🔗 <a href="compliance-checklist.xlsx">Download Checklist</a></p>
+</div>
 
----
+<h2>🔗 Additional Projects</h2>
+<ul>
+    <li><a href="security-policies.html">Security Policy Templates</a></li>
+    <li><a href="network-risk.html">Network Risk Analysis</a></li>
+    <li><a href="grc-automation.html">GRC Automation (Using OpenSCAP)</a></li>
+</ul>
 
-## **🔗 Additional Projects**
-- [Security Policy Templates](security-policies.html)  
-- [Network Risk Analysis](network-risk.html)  
-- [GRC Automation (Using OpenSCAP)](grc-automation.html)  
+</body>
+</html>
