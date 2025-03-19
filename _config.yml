@@ -1,3 +1,6 @@
 title: "Cybersecurity GRC Portfolio" 
 theme: jekyll-theme-minimal
 show_downloads: false
+markdown: kramdown
+theme: minima
+permalink: pretty
