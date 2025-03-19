@@ -4,7 +4,7 @@ title: "Cybersecurity GRC Portfolio"
 ---
 <header class="full-banner">
   <img src="riskguardian.png" alt="Portfolio Banner for Matthew Stephens">
-    </head>
+    </header>
 <h1>Matthew Stephens</h1>
 
 <h2>Cybersecurity GRC Specialist | Risk and Compliance | Incident Response</h2>
