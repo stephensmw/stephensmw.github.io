@@ -2,6 +2,7 @@
 layout: default
 title: "Cybersecurity GRC Portfolio"
 ---
+![Banner Image](riskguardian.png)
 <h1>Matthew Stephens</h1>
 
 <h2>Cybersecurity GRC Specialist | Risk and Compliance | Incident Response</h2>
