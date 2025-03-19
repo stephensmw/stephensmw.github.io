@@ -5,10 +5,6 @@ title: "Portfolio"
 <header class="mini-header">
     <h1>Portfolio</h1>
 </header>
----
-layout: default
-title: "Portfolio"
----
 
 # Cybersecurity GRC Portfolio
 
