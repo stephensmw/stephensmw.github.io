@@ -5,4 +5,38 @@ title: "Portfolio"
 <header class="mini-header">
     <h1>Portfolio</h1>
 </header>
-This is where my portfolio will be. 
+---
+layout: default
+title: "Portfolio"
+---
+
+# Cybersecurity GRC Portfolio
+
+Welcome to my portfolio! Here, you'll find case studies, risk assessments, and compliance reports showcasing my expertise in cybersecurity governance, risk, and compliance.
+
+## **🔹 Featured Projects**  
+
+### **1. Risk Assessment Report (ISO 27001 Framework)**  
+- **Overview**: Conducted a security risk assessment for a mid-sized company.  
+- **Key Findings**: Identified vulnerabilities in data handling and network security.  
+- **Outcome**: Recommended security controls based on ISO 27001.  
+- 🔗 [View Report](risk-assessment.md)  
+
+### **2. Incident Response Plan (NIST 800-61 Guidelines)**  
+- **Overview**: Developed an IR plan for a cloud-based application.  
+- **Key Findings**: Simulated phishing attack detection & mitigation strategies.  
+- **Outcome**: Reduced response time by 40% through automated processes.  
+- 🔗 [View Plan](incident-response.md)  
+
+### **3. Compliance Audit Checklist (NIST, CIS, GDPR)**  
+- **Overview**: Created a compliance audit checklist for a SaaS provider.  
+- **Key Findings**: Discovered gaps in access controls and data protection.  
+- **Outcome**: Implemented a remediation roadmap for full compliance.  
+- 🔗 [Download Checklist](compliance-checklist.xlsx)  
+
+---
+
+## **🔗 Additional Projects**
+- [Security Policy Templates](security-policies.md)  
+- [Network Risk Analysis](network-risk.md)  
+- [GRC Automation (Using OpenSCAP)](grc-automation.md)  
