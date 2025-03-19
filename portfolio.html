@@ -5,6 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matthew Stephens's Portfolio</title>
+    <div id="navbar"></div>
+
+  <script>
+    // Load the navigation bar dynamically
+    fetch('nav.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar').innerHTML = data;
+      })
+      .catch(err => console.error('Error loading navigation bar:', err));
+  </script>
+
     <style>
         body {
             font-family: Arial, sans-serif;
