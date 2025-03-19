@@ -1,4 +1,16 @@
 <html>
+    <head><div id="navbar"></div>
+
+  <script>
+    // Load the navigation bar dynamically
+    fetch('nav.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar').innerHTML = data;
+      })
+      .catch(err => console.error('Error loading navigation bar:', err));
+  </script>
+</head>
 <header class="mini-header">
     <link rel="stylesheet" href="style.css">
     <h1>Blog</h1>
