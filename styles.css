@@ -5,10 +5,12 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-color: #F4F4F4; /* Off-White */
+    color: #4A4A4A; /* Steel Gray */
 }
 
 header {
-    background-color: #333;
+    background-color: #1B263B; /* Dark Blue */
     color: white;
     text-align: center;
     padding: 1rem;
@@ -20,10 +22,12 @@ header {
     flex-direction: column;
     flex: 1;
 }
+
 .about-container {
     display: flex;
     align-items: center;
 }
+
 .profile-photo {
     border-radius: 50%;
     width: 120px;
@@ -33,7 +37,7 @@ header {
 
 .sidebar {
     width: 100%;
-    background-color: #222;
+    background-color: #1B263B; /* Dark Blue */
     color: white;
     padding: 1rem;
     text-align: center;
@@ -52,19 +56,40 @@ header {
 }
 
 .sidebar ul li a {
-    color: white;
+    color: #A9DFD8; /* Soft Cyan */
     text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    color: #FF6B35; /* Bright Orange */
 }
 
 .content {
     padding: 2rem;
     flex-grow: 1;
+    background-color: #FFFFFF; /* White Content Background */
+}
+
+button, .cta-button {
+    background-color: #FF6B35; /* Bright Orange */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover, .cta-button:hover {
+    background-color: #0F8B8D; /* Cyber Teal */
 }
 
 @media (min-width: 768px) {
     .container {
         flex-direction: row;
     }
+    
     .sidebar {
         width: 250px;
         height: 100vh;
@@ -74,41 +99,19 @@ header {
         text-align: left;
         padding-top: 20px;
     }
+    
     .sidebar ul {
         flex-direction: column;
         align-items: flex-start;
     }
+    
     .content {
         margin-left: 270px;
     }
-    footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
 }
 
-footer ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-footer ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-}
-
-footer ul li a:hover {
-    color: #0077b5; /* Example: LinkedIn blue color */
-}
-
-   footer {
-    background-color: #333;
+footer {
+    background-color: #1B263B; /* Dark Blue */
     color: white;
     text-align: center;
     padding: 20px;
@@ -125,12 +128,12 @@ footer ul {
 
 footer ul li a {
     text-decoration: none;
-    color: white;
-    font-size: 20px; /* Adjust size as needed */
+    color: #A9DFD8; /* Soft Cyan */
+    font-size: 20px;
 }
 
 footer ul li a:hover {
-    color: #0077b5; /* Example: LinkedIn blue color */
+    color: #FF6B35; /* Bright Orange */
 }
 
 footer ul li a i {
@@ -140,5 +143,4 @@ footer ul li a i {
 footer p {
     margin-top: 10px;
     font-size: 14px;
-}
 }
