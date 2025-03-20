@@ -1,3 +1,13 @@
+
+header .logo-container {
+    display: inline-flex;
+    align-items: center;
+}
+.logo {
+    width: 40px;  /* Smaller size */
+    height: auto;
+    margin-right: 15px; /* Space between logo and title */
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
