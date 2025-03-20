@@ -1,7 +1,7 @@
 
 header .logo-container {
     display: inline-flex;
-    align-items: center;
+    align-items: left;
 }
 .logo {
     width: 40px;  /* Smaller size */
