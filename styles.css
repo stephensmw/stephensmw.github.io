@@ -81,4 +81,33 @@ header {
     .content {
         margin-left: 270px;
     }
+    footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+footer ul li a:hover {
+    color: #0077b5; /* Example: LinkedIn blue color */
+}
+
+footer p {
+    margin-top: 10px;
+}
 }
