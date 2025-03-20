@@ -1,23 +1,52 @@
-<html>
-    <head><div id="navbar"></div>
-
-  <script>
-    // Load the navigation bar dynamically
-    fetch('nav.html')
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById('navbar').innerHTML = data;
-      })
-      .catch(err => console.error('Error loading navigation bar:', err));
-  </script>
-    <link rel="stylesheet" href="style.css">
-    </head>
-<header class="mini-header">
-
-    <h1>Contact Me</h1>
-</header>
-<h3>Phone</h3>
-1-207-200-5998
-<h3>Email</h3>
-matt@riskguardian.tech
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Risk Guardian</title>
+    <meta name="description" content="Contact Matthew Stephens for inquiries about cybersecurity, GRC, risk management, and compliance.">
+    <meta name="keywords" content="Cybersecurity, GRC, Contact, Risk Management, Compliance">
+    <meta name="author" content="Matthew Stephens">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Contact - Risk Guardian">
+    <meta property="og:description" content="Get in touch with Matthew Stephens for cybersecurity inquiries.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://riskguardian.tech/contact.html">
+    <meta property="og:image" content="https://riskguardian.tech/banner-image.jpg">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Matthew Stephens",
+      "url": "https://riskguardian.tech/contact.html",
+      "email": "matt@riskguardian.tech",
+      "telephone": "1-207-200-5998"
+    }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+    </header>
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <section id="contact">
+                <h2>Contact Information</h2>
+                <p>If you'd like to get in touch, you can reach me via the following methods:</p>
+                <ul>
+                    <li><strong>Email:</strong> <a href="mailto:matt@riskguardian.tech">matt@riskguardian.tech</a></li>
+                    <li><strong>Phone:</strong> <a href="tel:+12072005998">1-207-200-5998</a></li>
+                </ul>
+            </section>
+        </main>
+    </div>
+</body>
 </html>
