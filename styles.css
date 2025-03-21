@@ -52,24 +52,25 @@ body {
 
 .about-container {
     display: flex;
-    flex-direction: column; /* Ensures the image and text stack vertically */
-    align-items: center; /* Centers the content */
-    text-align: justify; /* Justifies text for readability */
-    margin: 20px; /* Adds margin around the container */
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: flex-start; 
+    text-align: left; 
+    margin: 20px; 
 }
 
 .profile-photo {
-    max-width: 200px;  /* Adjust image size as needed */
+    max-width: 200px;  
+    height: auto; 
     border-radius: 50%;
-    margin-bottom: 20px; /* Adds space between image and text */
+    margin-left: 20px; 
 }
 
 .about-container p {
-    width: 100%; /* Ensures paragraphs take up the full width of the container */
-    max-width: 800px; /* Limits the paragraph width for better readability */
-    margin-bottom: 15px; /* Adds space between paragraphs */
+    width: 70%; 
+    max-width: 800px; 
+    margin-right: 20px;
 }
-
 .sidebar {
     width: 250px;
     background-color: #1B263B; /* Dark Blue */
