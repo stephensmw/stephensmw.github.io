@@ -4,6 +4,7 @@ header {
     justify-content: space-between; 
     padding: 10px;
     position: relative;
+    min-height: 85px;
 }
 
 .logo-container {
