@@ -33,7 +33,7 @@ h1 {
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 110px;
     display: flex;
     flex-direction: column;
     height: 100vh;
