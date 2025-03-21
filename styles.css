@@ -53,23 +53,23 @@ body {
 .about-container {
     display: flex;
     flex-direction: row; 
-    align-items: center; 
+    align-items: center;
     justify-content: flex-start; 
     text-align: left; 
-    margin: 20px; 
 }
 
 .profile-photo {
     max-width: 200px;  
     height: auto; 
-    border-radius: 50%;
+    border-radius: 50%; 
     margin-left: 20px; 
 }
 
 .about-container p {
-    width: 70%; 
-    max-width: 800px; 
-    margin-right: 20px;
+    width: 100%; 
+    max-width: 800px;
+    margin: 0; 
+    padding-right: 20px; 
 }
 .sidebar {
     width: 250px;
