@@ -5,6 +5,7 @@ header {
     padding: 10px;
     position: relative;
     min-height: 100px;
+    height: auto;
 }
 
 .logo-container {
@@ -13,17 +14,16 @@ header {
 }
 
 .logo {
-    max-width: 75px;
-    margin-right: 10px;
+    max-height: 100px; 
+    width: auto; 
 }
 
 h1 {
     font-size: 1.5em;
     margin: 0;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    white-space: nowrap;
+    position: static; 
+    text-align: center;
+    flex-grow: 1;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
