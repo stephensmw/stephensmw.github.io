@@ -1,21 +1,24 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: center; /* Center content horizontally */
+    justify-content: center; 
     padding: 10px;
     min-height: 100px;
     height: auto;
     background-color: #1B263B; /* Dark Blue */
     color: white;
     width: 100%;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
 }
 
 .logo-container {
     display: flex;
     align-items: center;
     position: absolute;
-    left: 20px; /* Keep logo left-aligned */
+    left: 20px; 
 }
 
 .logo {
@@ -29,11 +32,10 @@ h1 {
     text-align: center;
     flex-grow: 1;
 }
-}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 110px;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -46,6 +48,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+    margin-top: 100px; 
 }
 
 .about-container {
@@ -71,6 +74,8 @@ body {
     left: 0;
     height: calc(100vh - 100px); 
     overflow-y: auto;
+    z-index: 900; 
+    box-sizing: border-box; 
 }
 
 .sidebar ul {
@@ -99,6 +104,7 @@ body {
     padding: 2rem;
     flex-grow: 1;
     background-color: #FFFFFF; /* White Content Background */
+    margin-left: 0;
 }
 
 button, .cta-button {
@@ -121,11 +127,11 @@ button:hover, .cta-button:hover {
     }
     
     .sidebar {
-        width: 250px;
-        height: 100vh;
+        width: 230px; /* Reduced width by 20px */
+        height: calc(100vh - 100px); 
         position: fixed;
         left: 0;
-        top: 60px;
+        top: 100px; 
         text-align: left;
         padding-top: 20px;
     }
@@ -136,7 +142,8 @@ button:hover, .cta-button:hover {
     }
     
     .content {
-        margin-left: 270px;
+        margin-left: 250px; 
+        padding-top: 20px; 
     }
 }
 
@@ -146,6 +153,13 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 20px;
+    position: relative;
+    margin-left: 0; 
+}
+@media (min-width: 768px) {
+    footer {
+        margin-left: 250px; 
+    }
 }
 
 footer ul {
