@@ -2,7 +2,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center; 
-    padding: 10px;
     min-height: 100px;
     height: auto;
     background-color: #1B263B; /* Dark Blue */
@@ -67,7 +66,7 @@ body {
     width: 250px;
     background-color: #1B263B; /* Dark Blue */
     color: white;
-    padding: 1rem;
+    padding: 1px;
     text-align: center;
     position: fixed;
     top: 100px; 
@@ -101,7 +100,7 @@ body {
 }
 
 .content {
-    padding: 2rem;
+    padding:5px;
     flex-grow: 1;
     background-color: #FFFFFF; /* White Content Background */
     margin-left: 0;
