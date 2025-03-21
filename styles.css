@@ -132,7 +132,7 @@ button:hover, .cta-button:hover {
         left: 0;
         top: 100px; 
         text-align: left;
-        padding-top: 20px;
+        padding-top: 5px;
     }
     
     .sidebar ul {
@@ -142,7 +142,7 @@ button:hover, .cta-button:hover {
     
     .content {
         margin-left: 250px; 
-        padding-top: 20px; 
+        padding-top: 5px; 
     }
 }
 
@@ -150,7 +150,7 @@ footer {
     background-color: #1B263B; /* Dark Blue */
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     margin-top: 20px;
     position: relative;
     margin-left: 0; 
