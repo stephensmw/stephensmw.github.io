@@ -1,0 +1,1 @@
+This folder contains templates that are free to download, modify, and use. If you find them useful, or have suggestions, please email me at matt@riskguardian.tech. I would love to hear if they help your organization! 
