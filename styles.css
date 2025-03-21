@@ -66,7 +66,6 @@ body {
     width: 250px;
     background-color: #1B263B; /* Dark Blue */
     color: white;
-    padding: 1px;
     text-align: center;
     position: fixed;
     top: 100px; 
@@ -100,7 +99,6 @@ body {
 }
 
 .content {
-    padding:5px;
     flex-grow: 1;
     background-color: #FFFFFF; /* White Content Background */
     margin-left: 0;
