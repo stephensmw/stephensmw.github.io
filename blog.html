@@ -3,93 +3,153 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Risk Guardian Blog - Latest updates on cybersecurity, risk management, and compliance.">
-    <meta name="keywords" content="Cybersecurity, GRC, Risk Management, Compliance, Security, Governance, Risk Assessment">
+    <title>Blog - Risk Guardian</title>
+    <meta name="description" content="Latest cybersecurity insights and GRC articles by Matthew Stephens.">
+    <meta name="keywords" content="Cybersecurity, GRC, Blog, Risk Management, Compliance">
     <meta name="author" content="Matthew Stephens">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Risk Guardian Blog - Latest Updates">
-    <meta property="og:description" content="Explore the latest blog posts and YouTube videos on cybersecurity, risk management, and compliance.">
+    <meta property="og:title" content="Blog - Risk Guardian">
+    <meta property="og:description" content="Latest cybersecurity insights and articles by Matthew Stephens.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://riskguardian.tech/blog">
+    <meta property="og:url" content="https://riskguardian.tech/blog.html">
     <meta property="og:image" content="https://riskguardian.tech/banner-image.jpg">
-    
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Risk Guardian Blog",
-        "url": "https://riskguardian.tech/blog",
-        "author": {
-            "@type": "Person",
-            "name": "Matthew Stephens"
-        },
-        "description": "Blog posts and videos on cybersecurity GRC topics."
-    }
-    </script>
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <title>Risk Guardian Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="logo-container">
             <img src="RG - Logo.png" alt="Risk Guardian Logo" class="logo">
         </div>
-        <h1>Risk Guardian Blog</h1>
+        <h1>Blog</h1>
+        <button id="mobile-menu-toggle" aria-label="Toggle navigation menu">
+            <span class="menu-icon"></span>
+        </button>
     </header>
-
     <div class="container">
-        <nav class="sidebar">
+        <nav class="sidebar" id="main-nav">
             <ul>
                 <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-
         <main class="content">
-            <!-- Blog Section -->
-            <section id="about">
-                <h2>Welcome to My Blog</h2>
-                <p>Explore my latest updates on cybersecurity, risk management, and compliance. Check out my YouTube videos and Medium posts below.</p>
-            </section>
-
-            <!-- YouTube Videos Section -->
-            <section id="youtube-videos">
-                <h2>Latest YouTube Videos</h2>
-                <div class="video-embed-container">
-                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    
-                    <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <section id="blog">
+                <h2>Latest Articles</h2>
+                <p>Here are my latest articles on cybersecurity, GRC, and risk management:</p>
+                
+                <div id="medium-posts" class="medium-posts">
+                    <div class="loading">Loading latest articles...</div>
                 </div>
-                <p>For more videos, visit my <a href="https://www.youtube.com/@riskguardiantech" target="_blank">YouTube Channel</a>.</p>
-            </section>
-
-            <!-- Medium Posts Section -->
-            <section id="medium-posts">
-                <h2>Latest Medium Posts</h2>
-                <ul>
-                    <li><a href="https://riskguardian.medium.com/grc-demystified-a-beginners-guide-to-it-security-governance-risk-and-compliance-d57a07af28f2" target="_blank">GRC Demystified: A Beginner's Guide</a></li>
-                    <li><a href="https://medium.com/@yyg_64895/cybersecurity-risk-assessment-frameworks-123456" target="_blank">Cybersecurity Risk Assessment Frameworks</a></li>
-                    <li><a href="https://medium.com/@yyg_64895/compliance-audit-strategies-for-2025-abcdef" target="_blank">Compliance Audit Strategies for 2025</a></li>
-                    <li><a href="https://medium.com/@yyg_64895/automating-grc-with-openscap-789xyz" target="_blank">Automating GRC with OpenSCAP</a></li>
-                </ul>
-                <p>Read more posts on <a href="https://medium.com/@yyg_64895" target="_blank">my Medium profile</a>.</p>
+                
+                <div class="view-more">
+                    <a href="https://riskguardian.medium.com" target="_blank" class="button">View All Articles on Medium</a>
+                </div>
             </section>
         </main>
     </div>
-
-    <!-- Footer -->
     <footer>
         <p>Connect with me:</p>
-        <ul>
+        <ul class="social-links">
             <li><a href="https://bsky.app/profile/riskguardian.bsky.social" target="_blank"><i class="fab fa-twitter"></i> BlueSky</a></li>
             <li><a href="https://www.youtube.com/@riskguardiantech" target="_blank"><i class="fab fa-youtube"></i> YouTube</a></li>
-            <li><a href="https://riskguardian.medium.com/" target="_blank"><i class="fab fa-medium"></i> Medium</a></li>
+            <li><a href="https://riskguardian.medium.com" target="_blank"><i class="fab fa-medium"></i> Medium</a></li>
             <li><a href="https://www.linkedin.com/in/stephensmw/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
         </ul>
         <p>&copy; 2025 Matthew Stephens. All rights reserved.</p>
     </footer>
+
+    <script>
+        // Toggle mobile menu
+        document.getElementById('mobile-menu-toggle').addEventListener('click', function() {
+            const nav = document.getElementById('main-nav');
+            nav.classList.toggle('show');
+        });
+
+        // Fetch and display Medium posts
+        async function fetchMediumPosts() {
+            const username = 'riskguardian';
+            const rssUrl = `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${username}`;
+            const postsContainer = document.getElementById('medium-posts');
+            
+            try {
+                const response = await fetch(rssUrl);
+                
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                
+                const data = await response.json();
+                
+                if (data.status !== 'ok') {
+                    throw new Error('Failed to fetch Medium posts');
+                }
+                
+                // Clear loading message
+                postsContainer.innerHTML = '';
+                
+                // Display the latest 3 posts
+                const latestPosts = data.items.slice(0, 3);
+                
+                latestPosts.forEach(post => {
+                    // Extract first image from content as thumbnail
+                    let thumbnailUrl = '';
+                    const imgRegex = /<img[^>]+src="([^">]+)"/;
+                    const match = post.content.match(imgRegex);
+                    
+                    if (match && match[1]) {
+                        thumbnailUrl = match[1];
+                    } else {
+                        // Default image if no image is found
+                        thumbnailUrl = 'https://via.placeholder.com/300x180?text=Risk+Guardian';
+                    }
+                    
+                    // Format date
+                    const publishDate = new Date(post.pubDate);
+                    const formattedDate = publishDate.toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric'
+                    });
+                    
+                    // Create post card
+                    const postCard = document.createElement('div');
+                    postCard.className = 'post-card';
+                    postCard.innerHTML = `
+                        <img src="${thumbnailUrl}" alt="${post.title}" class="post-thumbnail">
+                        <div class="post-content">
+                            <h3 class="post-title">${post.title}</h3>
+                            <div class="post-date">${formattedDate}</div>
+                            <a href="${post.link}" target="_blank" class="post-link">Read Article</a>
+                        </div>
+                    `;
+                    
+                    postsContainer.appendChild(postCard);
+                });
+                
+                // If no posts were found
+                if (latestPosts.length === 0) {
+                    postsContainer.innerHTML = `
+                        <div class="error-message">
+                            No articles found. Please check back later.
+                        </div>
+                    `;
+                }
+                
+            } catch (error) {
+                console.error('Error fetching Medium posts:', error);
+                postsContainer.innerHTML = `
+                    <div class="error-message">
+                        Unable to load latest articles. Please try again later.
+                    </div>
+                `;
+            }
+        }
+        
+        // Load posts when the page is loaded
+        document.addEventListener('DOMContentLoaded', fetchMediumPosts);
+    </script>
 </body>
 </html>
